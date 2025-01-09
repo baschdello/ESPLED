@@ -3015,16 +3015,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 80.01) (xy 88.9 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a22f565-6804-46ce-8fa3-7b943959c22d")
-	)
-	(wire
-		(pts
 			(xy 157.48 101.6) (xy 156.21 101.6)
 		)
 		(stroke
@@ -3212,6 +3202,16 @@
 			(type default)
 		)
 		(uuid "dfe1e476-eb50-41db-ab27-96cdf5b3c6c4")
+	)
+	(wire
+		(pts
+			(xy 87.63 82.55) (xy 88.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea56a0f2-a468-4025-9527-3e2213e72639")
 	)
 	(wire
 		(pts
@@ -3609,7 +3609,7 @@
 	)
 	(global_label "MCU_PIR"
 		(shape input)
-		(at 87.63 80.01 180)
+		(at 87.63 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3619,7 +3619,7 @@
 		)
 		(uuid "d44c5833-01cc-4f16-b0ee-b13b0c852815")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.4805 80.01 0)
+			(at 76.4805 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
